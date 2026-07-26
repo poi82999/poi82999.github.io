@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-26T17:26:23.443Z",
+  "generatedAt": "2026-07-26T17:26:59.442Z",
   "projects": [
     {
       "name": "poi82999.github.io",
       "description": "Minseok Shin — dev portfolio, auto-updated from GitHub activity",
       "url": "https://github.com/poi82999/poi82999.github.io",
       "homepage": null,
-      "language": null,
-      "pushedAt": "2026-07-26T17:25:03Z",
-      "lastCommitMessage": null
+      "language": "CSS",
+      "pushedAt": "2026-07-26T17:26:36Z",
+      "lastCommitMessage": "Initial portfolio site with auto-updating GitHub activity feed"
     },
     {
       "name": "silicontoai",
