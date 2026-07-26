@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-07-26T17:26:23.443Z",
+  "projects": [
+    {
+      "name": "poi82999.github.io",
+      "description": "Minseok Shin — dev portfolio, auto-updated from GitHub activity",
+      "url": "https://github.com/poi82999/poi82999.github.io",
+      "homepage": null,
+      "language": null,
+      "pushedAt": "2026-07-26T17:25:03Z",
+      "lastCommitMessage": null
+    },
+    {
+      "name": "silicontoai",
+      "description": "16×16 Weight-Stationary Systolic Array NPU 풀스택 (RTL→컴파일러→UVM→FPGA) + 공개 학습 로그",
+      "url": "https://github.com/poi82999/silicontoai",
+      "homepage": "https://poi82999.github.io/silicontoai/",
+      "language": "C++",
+      "pushedAt": "2026-07-23T11:57:47Z",
+      "lastCommitMessage": "Roofline R1: 필기 노트 + 실습1 그래프 + 39_roofline 수치 버그 수정"
+    },
+    {
+      "name": "snail-backend-contract",
+      "description": "Public API contract mirror for Snail backend (openapi.json + context docs) served via GitHub Pages",
+      "url": "https://github.com/poi82999/snail-backend-contract",
+      "homepage": null,
+      "language": null,
+      "pushedAt": "2026-07-12T13:29:13Z",
+      "lastCommitMessage": "Publish backend API contract (openapi.json + context docs)"
+    },
+    {
+      "name": "orbis",
+      "description": "Orbis — 화면 끝에 떠 있는 Windows 데스크톱 AI (홈페이지 + 릴리스 배포)",
+      "url": "https://github.com/poi82999/orbis",
+      "homepage": null,
+      "language": "HTML",
+      "pushedAt": "2026-06-22T12:29:19Z",
+      "lastCommitMessage": "Install section: auto-install prerequisites + per-item get commands"
+    },
+    {
+      "name": "english-poem-quiz",
+      "description": null,
+      "url": "https://github.com/poi82999/english-poem-quiz",
+      "homepage": null,
+      "language": "Python",
+      "pushedAt": "2026-06-07T11:13:45Z",
+      "lastCommitMessage": "Add English poetry quiz program"
+    },
+    {
+      "name": "neis-school-lunch-map",
+      "description": null,
+      "url": "https://github.com/poi82999/neis-school-lunch-map",
+      "homepage": null,
+      "language": "Python",
+      "pushedAt": "2026-06-04T14:21:07Z",
+      "lastCommitMessage": "region/map: 대비 유사도 + 지역 시그니처(특색 메뉴) 추가"
+    },
+    {
+      "name": "fm26rte",
+      "description": "Football Manager 26 external runtime player editor (Tauri + Rust + React, IL2CPP/RE)",
+      "url": "https://github.com/poi82999/fm26rte",
+      "homepage": null,
+      "language": "Lua",
+      "pushedAt": "2026-06-03T09:19:28Z",
+      "lastCommitMessage": "Initial public commit: FM26 player runtime editor"
+    },
+    {
+      "name": "silicontoaitogame",
+      "description": null,
+      "url": "https://github.com/poi82999/silicontoaitogame",
+      "homepage": null,
+      "language": "TypeScript",
+      "pushedAt": "2026-04-03T05:06:34Z",
+      "lastCommitMessage": "feat: mobile touch controls - joystick + action buttons"
+    },
+    {
+      "name": "MyFirstApp",
+      "description": null,
+      "url": "https://github.com/poi82999/MyFirstApp",
+      "homepage": null,
+      "language": "Kotlin",
+      "pushedAt": "2025-11-20T23:00:47Z",
+      "lastCommitMessage": "Merge pull request #1 from poi82999/login-feature"
+    }
+  ]
+}

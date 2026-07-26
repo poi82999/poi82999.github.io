@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Minseok Shin</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Minseok Shin</h1>
+  <p class="subtitle">KAIST · Software &amp; AI agent development</p>
+  <p class="links">
+    <a href="https://github.com/poi82999">GitHub</a>
+  </p>
+</header>
+
+<main>
+  <section>
+    <h2>Projects</h2>
+    <p class="hint">이 목록은 매일 자동으로 갱신됩니다 (public GitHub 저장소 활동 기준).</p>
+    <div id="projects" class="grid">Loading…</div>
+  </section>
+</main>
+
+<footer>
+  <p id="generated-at"></p>
+</footer>
+
+<script>
+fetch('data/projects.json')
+  .then((r) => r.json())
+  .then(({ generatedAt, projects }) => {
+    const el = document.getElementById('projects');
+    if (!projects.length) {
+      el.textContent = '아직 표시할 public 프로젝트가 없습니다.';
+      return;
+    }
+    el.innerHTML = projects.map((p) => `
+      <a class="card" href="${p.url}" target="_blank" rel="noopener">
+        <h3>${p.name}</h3>
+        <p class="desc">${p.description ?? ''}</p>
+        <p class="meta">
+          ${p.language ? `<span class="lang">${p.language}</span>` : ''}
+          <span class="date">${new Date(p.pushedAt).toLocaleDateString('ko-KR')}</span>
+        </p>
+        ${p.lastCommitMessage ? `<p class="commit">${p.lastCommitMessage}</p>` : ''}
+      </a>
+    `).join('');
+
+    if (generatedAt) {
+      document.getElementById('generated-at').textContent =
+        `Last updated: ${new Date(generatedAt).toLocaleString('ko-KR')}`;
+    }
+  })
+  .catch(() => {
+    document.getElementById('projects').textContent = '프로젝트 데이터를 불러오지 못했습니다.';
+  });
+</script>
+</body>
+</html>
