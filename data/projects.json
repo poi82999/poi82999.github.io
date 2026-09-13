@@ -1,13 +1,22 @@
 {
-  "generatedAt": "2026-09-12T03:16:17.620Z",
+  "generatedAt": "2026-09-13T03:20:35.796Z",
   "projects": [
+    {
+      "name": "fm26rte",
+      "description": "Football Manager 26 external runtime player editor (Tauri + Rust + React, IL2CPP/RE)",
+      "url": "https://github.com/poi82999/fm26rte",
+      "homepage": null,
+      "language": "Lua",
+      "pushedAt": "2026-09-12T16:03:06Z",
+      "lastCommitMessage": "Archive project: final snapshot of portrait studio and analysis work"
+    },
     {
       "name": "poi82999.github.io",
       "description": "Minseok Shin — dev portfolio, auto-updated from GitHub activity",
       "url": "https://github.com/poi82999/poi82999.github.io",
       "homepage": null,
       "language": "CSS",
-      "pushedAt": "2026-09-11T03:10:17Z",
+      "pushedAt": "2026-09-12T03:16:18Z",
       "lastCommitMessage": "chore: update portfolio data"
     },
     {
@@ -54,15 +63,6 @@
       "language": "Python",
       "pushedAt": "2026-06-04T14:21:07Z",
       "lastCommitMessage": "region/map: 대비 유사도 + 지역 시그니처(특색 메뉴) 추가"
-    },
-    {
-      "name": "fm26rte",
-      "description": "Football Manager 26 external runtime player editor (Tauri + Rust + React, IL2CPP/RE)",
-      "url": "https://github.com/poi82999/fm26rte",
-      "homepage": null,
-      "language": "Lua",
-      "pushedAt": "2026-06-03T09:19:28Z",
-      "lastCommitMessage": "Initial public commit: FM26 player runtime editor"
     },
     {
       "name": "silicontoaitogame",
