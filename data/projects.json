@@ -1,13 +1,22 @@
 {
-  "generatedAt": "2026-09-15T03:33:07.369Z",
+  "generatedAt": "2026-09-16T03:29:17.465Z",
   "projects": [
+    {
+      "name": "snail-backend-contract",
+      "description": "Public API contract mirror for Snail backend (openapi.json + context docs) served via GitHub Pages",
+      "url": "https://github.com/poi82999/snail-backend-contract",
+      "homepage": null,
+      "language": null,
+      "pushedAt": "2026-09-15T13:49:38Z",
+      "lastCommitMessage": "chore(contract): 백엔드 HEAD 기준으로 공개 미러를 갱신한다"
+    },
     {
       "name": "poi82999.github.io",
       "description": "Minseok Shin — dev portfolio, auto-updated from GitHub activity",
       "url": "https://github.com/poi82999/poi82999.github.io",
       "homepage": null,
       "language": "CSS",
-      "pushedAt": "2026-09-14T03:32:13Z",
+      "pushedAt": "2026-09-15T03:33:08Z",
       "lastCommitMessage": "chore: update portfolio data"
     },
     {
@@ -27,15 +36,6 @@
       "language": "C++",
       "pushedAt": "2026-07-23T11:57:47Z",
       "lastCommitMessage": "Roofline R1: 필기 노트 + 실습1 그래프 + 39_roofline 수치 버그 수정"
-    },
-    {
-      "name": "snail-backend-contract",
-      "description": "Public API contract mirror for Snail backend (openapi.json + context docs) served via GitHub Pages",
-      "url": "https://github.com/poi82999/snail-backend-contract",
-      "homepage": null,
-      "language": null,
-      "pushedAt": "2026-07-12T13:29:13Z",
-      "lastCommitMessage": "Publish backend API contract (openapi.json + context docs)"
     },
     {
       "name": "orbis",
