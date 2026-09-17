@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-16T03:29:17.465Z",
+  "generatedAt": "2026-09-17T03:35:05.030Z",
   "projects": [
+    {
+      "name": "poi82999.github.io",
+      "description": "Minseok Shin — dev portfolio, auto-updated from GitHub activity",
+      "url": "https://github.com/poi82999/poi82999.github.io",
+      "homepage": null,
+      "language": "CSS",
+      "pushedAt": "2026-09-16T03:29:18Z",
+      "lastCommitMessage": "chore: update portfolio data"
+    },
     {
       "name": "snail-backend-contract",
       "description": "Public API contract mirror for Snail backend (openapi.json + context docs) served via GitHub Pages",
@@ -9,15 +18,6 @@
       "language": null,
       "pushedAt": "2026-09-15T13:49:38Z",
       "lastCommitMessage": "chore(contract): 백엔드 HEAD 기준으로 공개 미러를 갱신한다"
-    },
-    {
-      "name": "poi82999.github.io",
-      "description": "Minseok Shin — dev portfolio, auto-updated from GitHub activity",
-      "url": "https://github.com/poi82999/poi82999.github.io",
-      "homepage": null,
-      "language": "CSS",
-      "pushedAt": "2026-09-15T03:33:08Z",
-      "lastCommitMessage": "chore: update portfolio data"
     },
     {
       "name": "fm26rte",
